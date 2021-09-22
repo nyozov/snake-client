@@ -23,8 +23,11 @@ const handleUserInput = function (data) {
   if (data === 's'){
     connection.write('Move: down')
   }
-   if (data === 'd'){
+  if (data === 'd'){
     connection.write('Move: right')
+  }
+  if (data === 'f'){
+    connection.write('Say: Hello')
   }
 };
 
